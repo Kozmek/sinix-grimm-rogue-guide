@@ -1,0 +1,1621 @@
+{
+  "complete": true,
+  "reviewedAt": "2026-11-03",
+  "scope": "Base one-hand swords, daggers, axes, maces and fist weapons, plus ranged bows, guns, crossbows and thrown weapons. Inspected equip requirement at most 60 or not printed; poor through legendary. Inspected equipment restrictions must allow a Horde Rogue. Item statistics come from each item’s own Forever tooltip or an explicitly labeled Classic reference.",
+  "discovery": [
+    {
+      "kind": "forever",
+      "url": "https://raw.githubusercontent.com/Napalmsteak/WoW-Classic-Item-Caches/main/Forever%20Cache.json",
+      "records": 10058,
+      "bytes": 18130603,
+      "sha256": "5d9a6461d2a7adbc4e3d765f19fbeb6adb37c4c53161bb89e4d7b770f805ca32"
+    },
+    {
+      "kind": "classic",
+      "url": "https://raw.githubusercontent.com/Napalmsteak/WoW-Classic-Item-Caches/main/Classic%20Era%20Cache.json",
+      "records": 8490,
+      "bytes": 14513755,
+      "sha256": "b394ff0aac7379864d0cca38cdd12eaaaccbd528adb2c0dada743cdaaf04b79c"
+    },
+    {
+      "kind": "common",
+      "url": "https://raw.githubusercontent.com/nexus-devs/wow-classic-items/master/data/json/data.json",
+      "records": 38294,
+      "bytes": 34813045,
+      "sha256": "8acd5a2e35d1bbcc830bc97c40089812ec6c8ca59f7750e9e08fab505f0bb0d9"
+    }
+  ],
+  "sourceRepository": "https://github.com/Napalmsteak/WoW-Classic-Item-Caches",
+  "commonRepository": "https://github.com/nexus-devs/wow-classic-items",
+  "listingAccess": "Direct Wowhead listings returned HTTP 403. Cached listing pages visibly paginate at 50 rows. No capped first-page list is claimed complete; every record of the named source files was considered.",
+  "candidateIds": 1392,
+  "enumerationNote": "The published caches are finite snapshots, not proof every hidden or unobtainable client item has been discovered. Random suffix families are represented by base item IDs, not every rolled suffix combination.",
+  "limitations": [
+    "Live Forever acquisition and availability are not established by a tooltip. An unconfirmed record may be inaccessible, unreleased or unavailable.",
+    "Classic acquisition is labeled separately even when an item has a current Forever tooltip. Classic-only records are reference candidates, not confirmed Forever gear.",
+    "Unknown equip requirements stay null and are excluded from usable, near-level and upcoming-level filters.",
+    "Phase and source names from Classic cannot establish the Forever release schedule.",
+    "Random-suffix families are base item IDs, not every rolled suffix combination.",
+    "Armor, two-hand weapons, wands, ammunition, crafting recipes, temporary quest tools, named PTR/debug/NYI items and inspected incompatible class/race restrictions are excluded.",
+    "Melee and ranged slots have separate roles. Tooltip DPS sorting does not account for your build, current weapon, special attacks, poison behavior, proc value or encounter."
+  ],
+  "processed": 1392,
+  "foreverTooltips": 1005,
+  "classicReferences": 218,
+  "accepted": 1223,
+  "failed": 70,
+  "excluded": 99,
+  "finishedAt": "2026-11-04T05:26:14.915Z",
+  "qualities": {
+    "Poor": 53,
+    "Common": 131,
+    "Uncommon": 448,
+    "Rare": 404,
+    "Epic": 186,
+    "Legendary": 1
+  },
+  "types": {
+    "Axe": 145,
+    "Bow": 121,
+    "Crossbow": 27,
+    "Dagger": 260,
+    "Fist Weapon": 52,
+    "Gun": 103,
+    "Mace": 241,
+    "Sword": 239,
+    "Thrown": 35
+  },
+  "randomSuffixFamilies": 115,
+  "uniqueIcons": 274,
+  "acquisitionKinds": {
+    "Crafted": 75,
+    "Dungeon Drop": 195,
+    "Other or Unknown": 296,
+    "Quest Reward": 210,
+    "Vendor": 105,
+    "World Drop": 342
+  },
+  "unresolvedForeverSnapshotIds": [
+    264501,
+    274265,
+    274271,
+    274658,
+    275025,
+    274647,
+    274952,
+    276419
+  ],
+  "completedScope": "All target base-weapon IDs discovered in the three named snapshots were attempted for melee and ranged. Final integration removed 30 recipe wrappers with nested weapon previews and one explicit internal-use test item. This is a broad audited catalog; it is not a claim every possible live or hidden Forever upgrade is known.",
+  "unavailableFlagCaution": "Tooltip API responses do not expose every page-level unavailable/PTR flag. Named debug records, temporary tools, explicit incompatible restrictions and a specifically verified unavailable legendary were excluded. Unknown-source records remain visibly unconfirmed.",
+  "excludedBeforeFetch": 13,
+  "excludedAfterFetch": 99,
+  "totalExcludedRecords": 112,
+  "fetchPassComplete": true,
+  "catalogExhaustive": false,
+  "unknownEquipRequirement": 288,
+  "acquisitionFromClassic": 331,
+  "isHordeAvailabilityNote": "isHordeAvailable is null unless a documented Horde source is explicit. No item is promised obtainable solely because it has a tooltip. isHordeUsable describes inspected equipment restrictions, not acquisition.",
+  "reconciliation": {
+    "attempted": 1392,
+    "accepted": 1223,
+    "unresolved": 70,
+    "excludedAfterFetch": 99,
+    "sum": 1392,
+    "excludedBeforeFetch": 13
+  },
+  "validation": {
+    "uniqueItemIds": true,
+    "originalSixPresent": true,
+    "iconFilesVerified": 968,
+    "iconCheck": "JPEG headers and SHA-256 match each captured source image",
+    "activeHtmlAbsent": true,
+    "sourceKindsValid": true,
+    "equipRequirementsAtMost60OrUnknown": true
+  },
+  "questReferenceEnrichment": {
+    "items": 138,
+    "realm": "Classic reference only",
+    "note": "Quest names and factions are reference acquisition metadata, separate from refreshed Forever item statistics."
+  },
+  "meleeWeapons": 937,
+  "rangedWeapons": 286,
+  "postIntegrationExclusions": [
+    {
+      "itemId": 24071,
+      "name": "Bland Dagger",
+      "reason": "Internal/test-only wording in actual tooltip."
+    },
+    {
+      "itemId": 2883,
+      "name": "Plans: Deadly Bronze Poniard",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 5543,
+      "name": "Plans: Iridescent Hammer",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 3608,
+      "name": "Plans: Mighty Iron Hammer",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12162,
+      "name": "Plans: Hardened Iron Shortsword",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 3866,
+      "name": "Plans: Jade Serpentblade",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 17706,
+      "name": "Plans: Edge of Winter",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12261,
+      "name": "Plans: Searing Golden Blade",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 7992,
+      "name": "Plans: Blue Glittering Axe",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 8029,
+      "name": "Plans: Wicked Mithril Blade",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 7993,
+      "name": "Plans: Dazzling Mithril Rapier",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 8028,
+      "name": "Plans: Runed Mithril Hammer",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 8030,
+      "name": "Plans: Ebon Shiv",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12821,
+      "name": "Plans: Dawn's Edge",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12819,
+      "name": "Plans: Ornate Thorium Handaxe",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12825,
+      "name": "Plans: Blazing Rapier",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12826,
+      "name": "Plans: Rune Edge",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12827,
+      "name": "Plans: Serenity",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12828,
+      "name": "Plans: Volcanic Hammer",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12831,
+      "name": "Plans: Blood Talon",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12837,
+      "name": "Plans: Masterwork Stormhammer",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12835,
+      "name": "Plans: Annihilator",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12839,
+      "name": "Plans: Heartseeker",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 22390,
+      "name": "Plans: Persuader",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12836,
+      "name": "Plans: Frostguard",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 22389,
+      "name": "Plans: Sageblade",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 17060,
+      "name": "Plans: Dark Iron Destroyer",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 19208,
+      "name": "Plans: Black Amnesty",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 19210,
+      "name": "Plans: Ebon Hand",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 19211,
+      "name": "Plans: Blackguard",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 17059,
+      "name": "Plans: Dark Iron Reaver",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    }
+  ],
+  "auditPasses": {
+    "melee": {
+      "complete": true,
+      "reviewedAt": "2026-11-03",
+      "scope": "Base one-hand swords, daggers, axes, maces and fist weapons with inspected equip requirement at most 60 or not printed; poor through legendary. Horde Rogue-compatible restrictions only. Actual damage and all statistics come from each item’s own Forever tooltip or an explicitly labeled Classic reference.",
+      "discovery": [
+        {
+          "kind": "forever",
+          "url": "https://raw.githubusercontent.com/Napalmsteak/WoW-Classic-Item-Caches/main/Forever%20Cache.json",
+          "records": 10058,
+          "bytes": 18130603,
+          "sha256": "5d9a6461d2a7adbc4e3d765f19fbeb6adb37c4c53161bb89e4d7b770f805ca32"
+        },
+        {
+          "kind": "classic",
+          "url": "https://raw.githubusercontent.com/Napalmsteak/WoW-Classic-Item-Caches/main/Classic%20Era%20Cache.json",
+          "records": 8490,
+          "bytes": 14513755,
+          "sha256": "b394ff0aac7379864d0cca38cdd12eaaaccbd528adb2c0dada743cdaaf04b79c"
+        },
+        {
+          "kind": "common",
+          "url": "https://raw.githubusercontent.com/nexus-devs/wow-classic-items/master/data/json/data.json",
+          "records": 38294,
+          "bytes": 34813045,
+          "sha256": "8acd5a2e35d1bbcc830bc97c40089812ec6c8ca59f7750e9e08fab505f0bb0d9"
+        }
+      ],
+      "sourceRepository": "https://github.com/Napalmsteak/WoW-Classic-Item-Caches",
+      "commonRepository": "https://github.com/nexus-devs/wow-classic-items",
+      "listingAccess": "Direct Wowhead listings returned HTTP 403. Cached listing pages visibly paginate at 50 rows. No capped first-page list is claimed complete; every record of the named source files was considered.",
+      "candidateIds": 1068,
+      "enumerationNote": "The published caches are finite snapshots, not proof every hidden or unobtainable client item has been discovered. Random suffix families are represented by base item IDs, not every rolled suffix combination.",
+      "limitations": [
+        "Live Forever acquisition and availability are not established by a tooltip.",
+        "Classic acquisition is labeled separately even when the item has a current Forever tooltip.",
+        "Unknown equip requirements stay null.",
+        "Phase and source names from Classic cannot establish the Forever release schedule.",
+        "Ranged weapons, armor, temporary quest tools, PTR/debug/NYI records and incompatible class or explicit Alliance-only restrictions are outside this catalog."
+      ],
+      "processed": 1068,
+      "foreverTooltips": 788,
+      "classicReferences": 180,
+      "accepted": 968,
+      "failed": 44,
+      "excluded": 56,
+      "finishedAt": "2026-11-04T05:17:21.521Z",
+      "qualities": {
+        "Common": 110,
+        "Uncommon": 343,
+        "Rare": 328,
+        "Epic": 149,
+        "Poor": 37,
+        "Legendary": 1
+      },
+      "types": {
+        "Axe": 152,
+        "Dagger": 266,
+        "Fist Weapon": 53,
+        "Mace": 249,
+        "Sword": 248
+      },
+      "randomSuffixFamilies": 101,
+      "uniqueIcons": 222,
+      "acquisitionKinds": {
+        "Quest Reward": 169,
+        "Unknown": 156,
+        "World Drop": 272,
+        "Crafted": 56,
+        "Vendor": 84,
+        "Dungeon Drop": 163,
+        "Other": 68
+      },
+      "unresolvedForeverSnapshotIds": [
+        264501,
+        274265,
+        274271,
+        274658,
+        275025,
+        274647,
+        274952,
+        276419
+      ],
+      "completedScope": "Every target base weapon record in the three enumerated snapshots was attempted. This is a broad audited catalog, not a claim every possible live or hidden Forever upgrade is known.",
+      "unavailableFlagCaution": "Tooltip API responses do not expose every page-level unavailable/PTR flag. Named debug records, temporary tools, explicit incompatible restrictions and a specifically verified unavailable legendary were excluded. Unknown-source records remain visibly unconfirmed.",
+      "excludedBeforeFetch": 7,
+      "excludedAfterFetch": 56,
+      "totalExcludedRecords": 63,
+      "fetchPassComplete": true,
+      "catalogExhaustive": false,
+      "unknownEquipRequirement": 217,
+      "acquisitionFromClassic": 331,
+      "isHordeAvailabilityNote": "isHordeAvailable is null unless a documented Horde source is explicit. No item is promised obtainable solely because it has a tooltip. isHordeUsable describes inspected equipment restrictions, not acquisition.",
+      "reconciliation": {
+        "attempted": 1068,
+        "accepted": 968,
+        "unresolved": 44,
+        "excludedAfterFetch": 56,
+        "sum": 1068,
+        "excludedBeforeFetch": 7
+      },
+      "validation": {
+        "uniqueItemIds": true,
+        "originalSixPresent": true,
+        "iconFilesVerified": 968,
+        "iconCheck": "JPEG headers and SHA-256 match each captured source image",
+        "activeHtmlAbsent": true,
+        "sourceKindsValid": true,
+        "equipRequirementsAtMost60OrUnknown": true
+      },
+      "questReferenceEnrichment": {
+        "items": 138,
+        "realm": "Classic reference only",
+        "note": "Quest names and factions are reference acquisition metadata, separate from refreshed Forever item statistics."
+      }
+    },
+    "ranged": {
+      "complete": true,
+      "catalogExhaustive": false,
+      "scope": "Base bows, guns, crossbows and thrown weapons usable in the Rogue ranged/stat slot. Inspected required level at most 60 or not printed; poor through legendary. Wands, melee weapons and incompatible explicit class/faction restrictions are excluded.",
+      "roleLabel": "Ranged / stat slot",
+      "candidateIds": 324,
+      "reviewedAt": "2026-11-03",
+      "discovery": [
+        {
+          "kind": "forever",
+          "url": "https://raw.githubusercontent.com/Napalmsteak/WoW-Classic-Item-Caches/main/Forever%20Cache.json",
+          "records": 10058,
+          "bytes": 18130603,
+          "sha256": "5d9a6461d2a7adbc4e3d765f19fbeb6adb37c4c53161bb89e4d7b770f805ca32"
+        },
+        {
+          "kind": "classic",
+          "url": "https://raw.githubusercontent.com/Napalmsteak/WoW-Classic-Item-Caches/main/Classic%20Era%20Cache.json",
+          "records": 8490,
+          "bytes": 14513755,
+          "sha256": "b394ff0aac7379864d0cca38cdd12eaaaccbd528adb2c0dada743cdaaf04b79c"
+        },
+        {
+          "kind": "common",
+          "url": "https://raw.githubusercontent.com/nexus-devs/wow-classic-items/master/data/json/data.json",
+          "records": 38294,
+          "bytes": 34813045,
+          "sha256": "8acd5a2e35d1bbcc830bc97c40089812ec6c8ca59f7750e9e08fab505f0bb0d9"
+        }
+      ],
+      "listingAccess": "Same complete published discovery snapshots as the melee catalog. Direct Wowhead listings returned HTTP 403 and cached listing pages paginate at 50 rows; this is not a capped first-page scrape.",
+      "enumerationNote": "All target records in the named snapshots were considered, then actual discovered IDs were requested from Forever and, if absent, Classic. Hidden/live acquisition remains unknown. Random suffixes are base families, not every rolled variant.",
+      "limitations": [
+        "A current Forever tooltip proves a database record, not a live acquisition route.",
+        "Classic reference tooltips and acquisition remain distinctly labeled.",
+        "Ranged/stat-slot entries are separate from Combat sword and Subtlety dagger melee choices.",
+        "Unknown equip requirements remain null.",
+        "Public snapshots and tooltip flags cannot prove every hidden item is obtainable."
+      ],
+      "processed": 324,
+      "accepted": 286,
+      "foreverTooltips": 246,
+      "classicReferences": 40,
+      "failed": 26,
+      "excluded": 12,
+      "excludedBeforeFetch": 6,
+      "fetchPassComplete": true,
+      "finishedAt": "2026-11-04T05:26:14.915Z",
+      "types": {
+        "Bow": 121,
+        "Gun": 103,
+        "Crossbow": 27,
+        "Thrown": 35
+      },
+      "qualities": {
+        "Common": 26,
+        "Uncommon": 119,
+        "Rare": 86,
+        "Epic": 39,
+        "Poor": 16
+      },
+      "randomSuffixFamilies": 14,
+      "reconciliation": {
+        "attempted": 324,
+        "accepted": 286,
+        "unresolved": 26,
+        "excludedAfterFetch": 12,
+        "sum": 324,
+        "excludedBeforeFetch": 6
+      },
+      "validation": {
+        "uniqueIds": true,
+        "iconFilesVerified": 286,
+        "equipRequirementsAtMost60OrUnknown": true,
+        "noMeleeCatalogOverlap": true,
+        "activeHtmlAbsent": true,
+        "topLevelWeaponsOnly": true,
+        "recipeWrapperExclusion": "Top-level recipe prefixes and target slot/type block appearing only after a second item-name marker are excluded."
+      },
+      "excludedAfterFetch": 12,
+      "recipeWrappersExcluded": 7
+    }
+  },
+  "unresolvedRecords": [
+    {
+      "itemId": 264501,
+      "name": "Ancient Skyborne Blade",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "forever"
+      ],
+      "note": "Published Forever snapshot listed this ID, but neither current tooltip route resolved it. Not included as a current upgrade."
+    },
+    {
+      "itemId": 274265,
+      "name": "Brush Cutter",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "forever"
+      ],
+      "note": "Published Forever snapshot listed this ID, but neither current tooltip route resolved it. Not included as a current upgrade."
+    },
+    {
+      "itemId": 274271,
+      "name": "Deadhead Blade",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "forever"
+      ],
+      "note": "Published Forever snapshot listed this ID, but neither current tooltip route resolved it. Not included as a current upgrade."
+    },
+    {
+      "itemId": 274658,
+      "name": "Dune Hacker",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "forever"
+      ],
+      "note": "Published Forever snapshot listed this ID, but neither current tooltip route resolved it. Not included as a current upgrade."
+    },
+    {
+      "itemId": 275025,
+      "name": "Dunston's Ogre Duster",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "forever"
+      ],
+      "note": "Published Forever snapshot listed this ID, but neither current tooltip route resolved it. Not included as a current upgrade."
+    },
+    {
+      "itemId": 274647,
+      "name": "Farraki Kris",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "forever"
+      ],
+      "note": "Published Forever snapshot listed this ID, but neither current tooltip route resolved it. Not included as a current upgrade."
+    },
+    {
+      "itemId": 274952,
+      "name": "Jom-jom's Gabbar",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "forever"
+      ],
+      "note": "Published Forever snapshot listed this ID, but neither current tooltip route resolved it. Not included as a current upgrade."
+    },
+    {
+      "itemId": 276419,
+      "name": "Lightcrest Hammer",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "forever"
+      ],
+      "note": "Published Forever snapshot listed this ID, but neither current tooltip route resolved it. Not included as a current upgrade."
+    },
+    {
+      "itemId": 20835,
+      "name": "Sunstrider Sword",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 20836,
+      "name": "Sunstrider Dagger",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 20837,
+      "name": "Sunstrider Axe",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 20840,
+      "name": "Sunstrider Mace",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 20851,
+      "name": "Arcane Forged Mace",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 20849,
+      "name": "Arcane Forged Shortsword",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 20850,
+      "name": "Arcane Forged Axe",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 20852,
+      "name": "Arcane Forged Dirk",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 20977,
+      "name": "Recruit's Shortsword",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 20981,
+      "name": "Neophyte's Mace",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 20982,
+      "name": "Sharp Dagger",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 20979,
+      "name": "Warder's Axe",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 20983,
+      "name": "Acolyte's Dagger",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 22956,
+      "name": "Rusty Mace",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 22963,
+      "name": "Ranger's Pocketknife",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 23370,
+      "name": "Ley-Keeper's Blade",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 22957,
+      "name": "Rusty Sin'dorei Sword",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 23373,
+      "name": "Long Knife",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 23391,
+      "name": "Exodar Dagger",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 23392,
+      "name": "Exodar Maul",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 23923,
+      "name": "Amani Sacrificial Dagger",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 23393,
+      "name": "Exodar Shortsword",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 23396,
+      "name": "Slightly Used Ranger's Blade",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 24100,
+      "name": "Warder's Dagger",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 24431,
+      "name": "McWeaksauce's Meat Tenderizer",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 24448,
+      "name": "Battle Tested Blade",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 29518,
+      "name": "Amani Scimitar",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 39371,
+      "name": "Keleseth's Persuader",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 30751,
+      "name": "Mag'hari Light Axe",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 30749,
+      "name": "Draenic Sparring Blade",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 30754,
+      "name": "Ancient Bone Mace",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 31259,
+      "name": "(Action Figure) Human Warrior Sword",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 45630,
+      "name": "Invisible Axe",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 51029,
+      "name": "Icecrown Raid Blood Prince Trash - 1H Dagger",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 50057,
+      "name": "Sharp Dirk",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 50055,
+      "name": "Worn Dirk",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "commonSupplement"
+      ],
+      "note": "Mixed catalog candidate did not resolve in current Forever or Classic Era. Not included."
+    },
+    {
+      "itemId": 274643,
+      "name": "Gutcutter Hatchet",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "forever"
+      ]
+    },
+    {
+      "itemId": 275052,
+      "name": "Orc Bone Bow",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "forever"
+      ]
+    },
+    {
+      "itemId": 20910,
+      "name": "Stiff Shortbow",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 20838,
+      "name": "Sunstrider Bow",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 20980,
+      "name": "Warder's Shortbow",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 23347,
+      "name": "Weathered Crossbow",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 23398,
+      "name": "Worn Ranger's Bow",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 24433,
+      "name": "Crossbow of the Albatross",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 24441,
+      "name": "Exodar Crossbow",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 25861,
+      "name": "Crude Throwing Axe",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 25874,
+      "name": "Large Throwing Knife",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 25875,
+      "name": "Deadly Throwing Axe",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 25872,
+      "name": "Balanced Throwing Dagger",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 25873,
+      "name": "Keen Throwing Knife",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 25876,
+      "name": "Gleaming Throwing Axe",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 25877,
+      "name": "Master's Throwing Dagger",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 29010,
+      "name": "Wicked Throwing Dagger",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 29007,
+      "name": "Weighted Throwing Axe",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 29008,
+      "name": "Sharp Throwing Axe",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 28979,
+      "name": "Light Throwing Knife",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 29009,
+      "name": "Heavy Throwing Dagger",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 29013,
+      "name": "Jagged Throwing Axe",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 30758,
+      "name": "Aldor Guardian Rifle",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 30757,
+      "name": "Draenic Light Crossbow",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 29014,
+      "name": "Blacksteel Throwing Dagger",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    },
+    {
+      "itemId": 30759,
+      "name": "Mag'hari Light Recurve",
+      "error": "No Forever or Classic tooltip",
+      "discoveryKinds": [
+        "common"
+      ]
+    }
+  ],
+  "excludedRecords": [
+    {
+      "itemId": 236760,
+      "name": "[TMP] Satyrbane",
+      "reason": "debug or placeholder name"
+    },
+    {
+      "itemId": 20317,
+      "name": "63 Green Rogue Dagger",
+      "reason": "debug or placeholder name"
+    },
+    {
+      "itemId": 20279,
+      "name": "90 Epic Rogue Dagger",
+      "reason": "debug or placeholder name"
+    },
+    {
+      "itemId": 20303,
+      "name": "90 Green Rogue Dagger",
+      "reason": "debug or placeholder name"
+    },
+    {
+      "itemId": 21127,
+      "name": "Ahn'Qiraj Mace [PH]",
+      "reason": "debug or placeholder name"
+    },
+    {
+      "itemId": 22805,
+      "name": "Naxxramas Sword 1H 1 [PH]",
+      "reason": "debug or placeholder name"
+    },
+    {
+      "itemId": 37596,
+      "name": "Direbrew's Bottle DO NOT USE",
+      "reason": "debug or placeholder name"
+    },
+    {
+      "itemId": 281628,
+      "name": "Blade of Bandarion",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 21395,
+      "name": "Blade of Eternal Justice",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 21413,
+      "name": "Blade of Vaulted Secrets",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 276631,
+      "name": "Coldflame Saber",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 10049,
+      "name": "Diabolist's Blade",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 6969,
+      "name": "Elunite Dagger",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 6966,
+      "name": "Elunite Axe",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 6968,
+      "name": "Elunite Hammer",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 6967,
+      "name": "Elunite Sword",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 21410,
+      "name": "Gavel of Infinite Wisdom",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 18838,
+      "name": "Grand Marshal's Dirk",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 18847,
+      "name": "Grand Marshal's Left Hand Blade",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 18827,
+      "name": "Grand Marshal's Handaxe",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 12584,
+      "name": "Grand Marshal's Longsword",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 23451,
+      "name": "Grand Marshal's Mageblade",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 18865,
+      "name": "Grand Marshal's Punisher",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 18843,
+      "name": "Grand Marshal's Right Hand Blade",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 23456,
+      "name": "Grand Marshal's Swiftblade",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 23454,
+      "name": "Grand Marshal's Warhammer",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 6979,
+      "name": "Haggard's Axe",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 6983,
+      "name": "Haggard's Hammer",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 6985,
+      "name": "Haggard's Sword",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 6980,
+      "name": "Haggard's Dagger",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 21398,
+      "name": "Hammer of the Gathering Storm",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 7115,
+      "name": "Heirloom Axe",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 7116,
+      "name": "Heirloom Dagger",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 7117,
+      "name": "Heirloom Hammer",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 7118,
+      "name": "Heirloom Sword",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 21416,
+      "name": "Kris of Unspoken Names",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 21407,
+      "name": "Mace of Unending Life",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 217497,
+      "name": "Narpas Sword",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 20070,
+      "name": "Sageclaw",
+      "reason": "explicit Alliance reputation requirement"
+    },
+    {
+      "itemId": 19546,
+      "name": "Sentinel's Blade",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 21401,
+      "name": "Scythe of the Unseen Path",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 19548,
+      "name": "Sentinel's Blade",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 19549,
+      "name": "Sentinel's Blade",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 20443,
+      "name": "Sentinel's Blade",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 19547,
+      "name": "Sentinel's Blade",
+      "reason": "Alliance PvP reward counterpart"
+    },
+    {
+      "itemId": 21392,
+      "name": "Sickle of Unyielding Strength",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 7326,
+      "name": "Thun'grim's Axe",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 7327,
+      "name": "Thun'grim's Dagger",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 7328,
+      "name": "Thun'grim's Mace",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 7329,
+      "name": "Thun'grim's Sword",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 6978,
+      "name": "Umbral Axe",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 6981,
+      "name": "Umbral Dagger",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 6984,
+      "name": "Umbral Sword",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 6982,
+      "name": "Umbral Mace",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 22736,
+      "name": "Andonisus, Reaper of Souls",
+      "reason": "PTR, placeholder, temporary or quest tool"
+    },
+    {
+      "itemId": 18348,
+      "name": "Quel'Serrar",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 3935,
+      "name": "Smotts' Cutlass",
+      "reason": "PTR, placeholder, temporary or quest tool"
+    },
+    {
+      "itemId": 5040,
+      "name": "Shadow Hunter Knife",
+      "reason": "PTR, placeholder, temporary or quest tool"
+    },
+    {
+      "itemId": 6831,
+      "name": "Black Menace",
+      "reason": "Only documented Classic quest source is Alliance-only and item binds on pickup; no current Forever tooltip.",
+      "evidenceUrl": "https://github.com/nexus-devs/wow-classic-items"
+    },
+    {
+      "itemId": 12062,
+      "name": "Skilled Fighting Blade",
+      "reason": "Only documented Classic quest source is Alliance-only and item binds on pickup; no current Forever tooltip.",
+      "evidenceUrl": "https://github.com/nexus-devs/wow-classic-items"
+    },
+    {
+      "itemId": 12061,
+      "name": "Blade of Reckoning",
+      "reason": "Only documented Classic quest source is Alliance-only and item binds on pickup; no current Forever tooltip.",
+      "evidenceUrl": "https://github.com/nexus-devs/wow-classic-items"
+    },
+    {
+      "itemId": 6829,
+      "name": "Sword of Serenity",
+      "reason": "Only documented Classic quest source is Alliance-only and item binds on pickup; no current Forever tooltip.",
+      "evidenceUrl": "https://github.com/nexus-devs/wow-classic-items"
+    },
+    {
+      "itemId": 17142,
+      "name": "Shard of the Defiler",
+      "reason": "Wowhead Forever page explicitly states this item is not available to players.",
+      "evidenceUrl": "https://www.wowhead.com/forever/item=17142/shard-of-the-defiler"
+    },
+    {
+      "itemId": 18833,
+      "name": "Grand Marshal's Bullseye",
+      "reason": "Alliance PvP counterpart"
+    },
+    {
+      "itemId": 18855,
+      "name": "Grand Marshal's Hand Cannon",
+      "reason": "Alliance PvP counterpart"
+    },
+    {
+      "itemId": 18836,
+      "name": "Grand Marshal's Repeater",
+      "reason": "Alliance PvP counterpart"
+    },
+    {
+      "itemId": 18713,
+      "name": "Rhok'delar, Longbow of the Ancient Keepers",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 20488,
+      "name": "Rhok'delar, Longbow of the Ancient Keepers DEP",
+      "reason": "explicit class requirement excludes Rogue"
+    },
+    {
+      "itemId": 13309,
+      "name": "Schematic: Lovingly Crafted Boomstick",
+      "reason": "Top-level item is a crafting recipe or wrapper; weapon statistics belong to its nested crafted-item preview."
+    },
+    {
+      "itemId": 4412,
+      "name": "Schematic: Moonsight Rifle",
+      "reason": "Top-level item is a crafting recipe or wrapper; weapon statistics belong to its nested crafted-item preview."
+    },
+    {
+      "itemId": 10604,
+      "name": "Schematic: Mithril Heavy-bore Rifle",
+      "reason": "Top-level item is a crafting recipe or wrapper; weapon statistics belong to its nested crafted-item preview."
+    },
+    {
+      "itemId": 16043,
+      "name": "Schematic: Thorium Rifle",
+      "reason": "Top-level item is a crafting recipe or wrapper; weapon statistics belong to its nested crafted-item preview."
+    },
+    {
+      "itemId": 16048,
+      "name": "Schematic: Dark Iron Rifle",
+      "reason": "Top-level item is a crafting recipe or wrapper; weapon statistics belong to its nested crafted-item preview."
+    },
+    {
+      "itemId": 16056,
+      "name": "Schematic: Flawless Arcanite Rifle",
+      "reason": "Top-level item is a crafting recipe or wrapper; weapon statistics belong to its nested crafted-item preview."
+    },
+    {
+      "itemId": 18292,
+      "name": "Schematic: Core Marksman Rifle",
+      "reason": "Top-level item is a crafting recipe or wrapper; weapon statistics belong to its nested crafted-item preview."
+    },
+    {
+      "itemId": 24071,
+      "name": "Bland Dagger",
+      "reason": "Internal/test-only wording in actual tooltip."
+    },
+    {
+      "itemId": 2883,
+      "name": "Plans: Deadly Bronze Poniard",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 5543,
+      "name": "Plans: Iridescent Hammer",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 3608,
+      "name": "Plans: Mighty Iron Hammer",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12162,
+      "name": "Plans: Hardened Iron Shortsword",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 3866,
+      "name": "Plans: Jade Serpentblade",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 17706,
+      "name": "Plans: Edge of Winter",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12261,
+      "name": "Plans: Searing Golden Blade",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 7992,
+      "name": "Plans: Blue Glittering Axe",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 8029,
+      "name": "Plans: Wicked Mithril Blade",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 7993,
+      "name": "Plans: Dazzling Mithril Rapier",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 8028,
+      "name": "Plans: Runed Mithril Hammer",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 8030,
+      "name": "Plans: Ebon Shiv",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12821,
+      "name": "Plans: Dawn's Edge",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12819,
+      "name": "Plans: Ornate Thorium Handaxe",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12825,
+      "name": "Plans: Blazing Rapier",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12826,
+      "name": "Plans: Rune Edge",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12827,
+      "name": "Plans: Serenity",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12828,
+      "name": "Plans: Volcanic Hammer",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12831,
+      "name": "Plans: Blood Talon",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12837,
+      "name": "Plans: Masterwork Stormhammer",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12835,
+      "name": "Plans: Annihilator",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12839,
+      "name": "Plans: Heartseeker",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 22390,
+      "name": "Plans: Persuader",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 12836,
+      "name": "Plans: Frostguard",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 22389,
+      "name": "Plans: Sageblade",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 17060,
+      "name": "Plans: Dark Iron Destroyer",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 19208,
+      "name": "Plans: Black Amnesty",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 19210,
+      "name": "Plans: Ebon Hand",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 19211,
+      "name": "Plans: Blackguard",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    },
+    {
+      "itemId": 17059,
+      "name": "Plans: Dark Iron Reaver",
+      "reason": "Crafting recipe wrapper, not an equippable weapon; nested crafted-item preview rejected."
+    }
+  ]
+}

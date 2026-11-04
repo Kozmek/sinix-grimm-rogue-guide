@@ -1,0 +1,987 @@
+{
+  "generated": "2026-11-03",
+  "source": "Blizzard game artwork delivered by Wowhead zamimg icon CDN",
+  "metadataSource": "https://talentsforever.com/export/rogue.json",
+  "metadataBuild": "1.60.1.70753",
+  "artworkCredit": "World of Warcraft names and game artwork belong to Blizzard Entertainment. Icon filenames follow the retained Rogue client snapshot; interface-only icons use standard game art.",
+  "cdn": "https://wow.zamimg.com/images/wow/icons/large/",
+  "requestedIcons": 91,
+  "downloadedIcons": 91,
+  "talentNodes": 54,
+  "spellbookEntries": 43,
+  "groups": {
+    "talents": {
+      "Improved Gouge": "ability_gouge",
+      "Remorseless Attacks": "ability_fiegndead",
+      "Malice": "ability_racial_bloodrage",
+      "Ruthlessness": "ability_druid_disembowel",
+      "Improved Expose Armor": "ability_warrior_riposte",
+      "Improved Slice and Dice": "ability_rogue_slicedice",
+      "Vigor": "spell_nature_earthbindtotem",
+      "Blood Splatter": "ability_rogue_bloodsplatter",
+      "Lethality": "ability_criticalstrike",
+      "Vile Poisons": "ability_rogue_feigndeath",
+      "Cold Blood": "spell_ice_lament",
+      "Improved Poisons": "ability_poisons",
+      "Relentless Strikes": "ability_warrior_decisivestrike",
+      "Venom": "inv_sword_31",
+      "Improved Kidney Shot": "ability_rogue_kidneyshot",
+      "Seal Fate": "spell_shadow_chilltouch",
+      "Mutilate": "ability_rogue_deadlybrew",
+      "Coup de Grace": "ability_rogue_eviscerate",
+      "Efficient Strikes": "spell_shadow_ritualofsacrifice",
+      "Lightning Reflexes": "spell_nature_invisibilty",
+      "Puncturing Wounds": "ability_backstab",
+      "Deflection": "ability_parry",
+      "Precision": "ability_marksmanship",
+      "Improved Sprint": "ability_rogue_sprint",
+      "Endurance": "spell_shadow_shadowward",
+      "Riposte": "ability_warrior_challange",
+      "Composure": "ability_rogue_fleetfooted",
+      "Improved Kick": "ability_kick",
+      "Flawless Execution": "inv_sword_35",
+      "Aggression": "ability_racial_avatar",
+      "Weapon Expertise": "spell_holy_blessingofstrength",
+      "Blade Flurry": "ability_warrior_punishingblow",
+      "Hack and Slash": "inv_sword_27",
+      "Dual Wield Specialization": "ability_dualwield",
+      "Flash of Steel": "ability_rogue_murderspree",
+      "Adrenaline Rush": "spell_shadow_shadowworddominate",
+      "Setup": "spell_nature_mirrorimage",
+      "Master of Deception": "spell_shadow_charm",
+      "Opportunity": "ability_warrior_warcry",
+      "Camouflage": "ability_stealth",
+      "Dirty Deeds": "spell_shadow_summonsuccubus",
+      "Dirty Tricks": "ability_sap",
+      "Improved Ambush": "ability_rogue_ambush",
+      "Initiative": "spell_shadow_fumble",
+      "Premeditation": "spell_shadow_possession",
+      "Serrated Blades": "inv_sword_17",
+      "Ghostly Strike": "spell_shadow_curse",
+      "Elusiveness": "spell_magic_lesserinvisibilty",
+      "Quick Getaway": "ability_rogue_sprint_blue",
+      "Heightened Senses": "ability_ambush",
+      "Preparation": "spell_shadow_antishadow",
+      "Hemorrhage": "spell_shadow_lifedrain",
+      "Boot Knife": "inv_throwingknife_07",
+      "Death Mark": "ability_creature_cursed_02"
+    },
+    "spellbook": {
+      "Distract": "ability_rogue_distract",
+      "Gouge": "ability_gouge",
+      "Sinister Strike": "spell_shadow_ritualofsacrifice",
+      "Blind": "spell_shadow_mindsteal",
+      "Eviscerate": "ability_rogue_eviscerate",
+      "Rupture": "ability_rogue_rupture",
+      "Garrote": "ability_rogue_garrote",
+      "Kick": "ability_kick",
+      "Ambush": "ability_rogue_ambush",
+      "Pick Pocket": "inv_misc_bag_11",
+      "Stealth": "ability_stealth",
+      "Vanish": "ability_vanish",
+      "Backstab": "ability_backstab",
+      "Feint": "ability_rogue_feint",
+      "Evasion": "spell_shadow_shadowward",
+      "Sap": "ability_sap",
+      "Slice and Dice": "ability_rogue_slicedice",
+      "Kidney Shot": "ability_rogue_kidneyshot",
+      "Cheap Shot": "ability_cheapshot",
+      "Adrenaline Rush": "spell_shadow_shadowworddominate",
+      "Blade Flurry": "ability_warrior_punishingblow",
+      "Sprint": "ability_rogue_sprint",
+      "Cold Blood": "spell_ice_lament",
+      "Preparation": "spell_shadow_antishadow",
+      "Riposte": "ability_warrior_challange",
+      "Ghostly Strike": "spell_shadow_curse",
+      "Detect Traps": "ability_spy",
+      "Disarm Trap": "spell_shadow_grimward",
+      "Premeditation": "spell_shadow_possession",
+      "Hemorrhage": "spell_shadow_lifedrain",
+      "Safe Fall": "inv_feather_01",
+      "Expose Armor": "ability_warrior_riposte",
+      "Mutilate": "ability_rogue_deadlybrew",
+      "Poised": "ability_rogue_fleetfooted",
+      "Shank": "inv_throwingknife_04",
+      "Death Mark": "ability_creature_cursed_02",
+      "Crippling Poison": "ability_poisonsting",
+      "Instant Poison": "ability_poisons",
+      "Mind-numbing Poison": "spell_nature_nullifydisease",
+      "Deadly Poison": "ability_rogue_dualweild",
+      "Wound Poison": "inv_misc_herb_16",
+      "Blinding Powder": "inv_misc_ammo_gunpowder_02",
+      "Will of the Forsaken": "spell_shadow_raisedead"
+    },
+    "nav": {
+      "overview": "ability_stealth",
+      "journey": "ability_rogue_sprint",
+      "combat": "spell_shadow_ritualofsacrifice",
+      "subtlety": "ability_rogue_ambush",
+      "talents": "ability_backstab",
+      "weapons": "inv_sword_27",
+      "matchups": "ability_rogue_kidneyshot",
+      "pve": "ability_rogue_slicedice",
+      "gear": "inv_chest_leather_05",
+      "professions": "trade_engineering",
+      "macros": "ability_kick",
+      "tracker": "inv_misc_book_09",
+      "launch": "ability_rogue_fleetfooted",
+      "sources": "inv_misc_note_01"
+    },
+    "macros": {
+      "kick": "ability_kick",
+      "sap": "ability_sap",
+      "blind": "spell_shadow_mindsteal",
+      "vanish": "ability_vanish",
+      "wotf": "spell_shadow_raisedead",
+      "stealth": "ability_stealth",
+      "focuskick": "ability_kick"
+    },
+    "professions": {
+      "alchemy": "trade_alchemy",
+      "blacksmithing": "trade_blacksmithing",
+      "cooking": "inv_misc_food_15",
+      "enchanting": "trade_engraving",
+      "engineering": "trade_engineering",
+      "first-aid": "spell_holy_sealofsacrifice",
+      "fishing": "trade_fishing",
+      "herbalism": "spell_nature_naturetouchgrow",
+      "leatherworking": "trade_leatherworking",
+      "mining": "trade_mining",
+      "skinning": "inv_misc_pelt_wolf_01",
+      "tailoring": "trade_tailoring"
+    },
+    "trees": {
+      "Assassination": "ability_rogue_eviscerate",
+      "Combat": "ability_backstab",
+      "Subtlety": "ability_stealth"
+    },
+    "extra": {
+      "class": "classicon_rogue",
+      "book": "inv_misc_book_07",
+      "pocketwatch": "inv_misc_pocketwatch_01",
+      "coins": "inv_misc_coin_02"
+    }
+  },
+  "files": {
+    "ability_ambush": {
+      "path": "assets/icons/ability_ambush.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_ambush.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1812,
+      "sha256": "acc00e6886d46737cfd65fac9d9915eabc604859e52e999dba3a155a95737ea7"
+    },
+    "ability_backstab": {
+      "path": "assets/icons/ability_backstab.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_backstab.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1980,
+      "sha256": "9aee6770b34944c7031bc21ca6d0a23b061f081c298039b62bb8341b2d16c3ff"
+    },
+    "ability_cheapshot": {
+      "path": "assets/icons/ability_cheapshot.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_cheapshot.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1860,
+      "sha256": "9073f5bd6ef439a01ae33563eb2a7ed7d221b315e1ccefbf2de9e1e9f8b6b8d8"
+    },
+    "ability_creature_cursed_02": {
+      "path": "assets/icons/ability_creature_cursed_02.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_creature_cursed_02.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1962,
+      "sha256": "c72366cb955d706c27a713333b42b1c8b0578d7b279c8a3b9f766779d81a2e3a"
+    },
+    "ability_criticalstrike": {
+      "path": "assets/icons/ability_criticalstrike.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_criticalstrike.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2052,
+      "sha256": "93a7fa9e7560e4142ea3942373ccbffa0db1bc7ad4b728903d4d27f460393bd9"
+    },
+    "ability_druid_disembowel": {
+      "path": "assets/icons/ability_druid_disembowel.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_disembowel.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1465,
+      "sha256": "eeda967dc12a77345c1ac9ccca7b57ba4670ee08fcf682b31f200b45c74d00bb"
+    },
+    "ability_dualwield": {
+      "path": "assets/icons/ability_dualwield.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_dualwield.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1744,
+      "sha256": "82ec05ee887ca3f419d70252d6c38329813c9fa4593a01e1ce0e5f0d8fb6d208"
+    },
+    "ability_fiegndead": {
+      "path": "assets/icons/ability_fiegndead.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_fiegndead.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1816,
+      "sha256": "cdf874ebe90d05d10fc0c0921cd7e1c29ffdd80b57d8ee0167b54b8322ea87d0"
+    },
+    "ability_gouge": {
+      "path": "assets/icons/ability_gouge.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_gouge.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2072,
+      "sha256": "4367492a52c77d7bc636687e1726b10c831cbdeaf7fc5e204c5f1437f2e37c61"
+    },
+    "ability_kick": {
+      "path": "assets/icons/ability_kick.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_kick.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1556,
+      "sha256": "f4d0761df3163b086da179d5011db94abfbd748125c87f893b6804b592a42f08"
+    },
+    "ability_marksmanship": {
+      "path": "assets/icons/ability_marksmanship.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_marksmanship.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2078,
+      "sha256": "6efcca1d1aea13c3ef0531c710b910dd3568966a65ac80e639225f588605f4de"
+    },
+    "ability_parry": {
+      "path": "assets/icons/ability_parry.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_parry.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1886,
+      "sha256": "cd18ec750ad22dc3de083368b1c139b40b776b2fa9ebafbc46f40e984d015dc3"
+    },
+    "ability_poisons": {
+      "path": "assets/icons/ability_poisons.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_poisons.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1517,
+      "sha256": "110c92a2387db0d43ba7bc2c3d727e7c1773f8eff72be14b3fc121e7eacb41c0"
+    },
+    "ability_poisonsting": {
+      "path": "assets/icons/ability_poisonsting.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_poisonsting.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1739,
+      "sha256": "e7bef348897f2d6ce07b8363da81fbb88b16895844639689fbd1fa81c946e256"
+    },
+    "ability_racial_avatar": {
+      "path": "assets/icons/ability_racial_avatar.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_racial_avatar.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2211,
+      "sha256": "adf0650e14ad14684afef57567787737a99a633c9acdbf42f9e1ffd28ea721b9"
+    },
+    "ability_racial_bloodrage": {
+      "path": "assets/icons/ability_racial_bloodrage.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_racial_bloodrage.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1897,
+      "sha256": "e011d95876c5555d7ad8b681ccdb0a05172826c863464e16eb7cb6c27f4ec4db"
+    },
+    "ability_rogue_ambush": {
+      "path": "assets/icons/ability_rogue_ambush.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_ambush.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2148,
+      "sha256": "18c9a79ff229489d8fda2e682acc6295ab1b082afa9e444585d45cf2ccca7383"
+    },
+    "ability_rogue_bloodsplatter": {
+      "path": "assets/icons/ability_rogue_bloodsplatter.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_bloodsplatter.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2067,
+      "sha256": "c34bd0e3a426f32a8fb43ec1f42cd9d80b5b1b3a25e4711566508b483336fe71"
+    },
+    "ability_rogue_deadlybrew": {
+      "path": "assets/icons/ability_rogue_deadlybrew.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_deadlybrew.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2127,
+      "sha256": "d5b9ce466bd1f9e88e6d52d88925babf6991166543040e8aa8f34c1d21045666"
+    },
+    "ability_rogue_distract": {
+      "path": "assets/icons/ability_rogue_distract.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_distract.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1668,
+      "sha256": "16512f7f2cf47df222cd335cfdfc2b0846e331efdb70ec18653712be680da806"
+    },
+    "ability_rogue_dualweild": {
+      "path": "assets/icons/ability_rogue_dualweild.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_dualweild.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1789,
+      "sha256": "be9b7acc699cb93cea1ee7a50c9c32d8815fea7493c3a3c2fc4fc0bf7207d965"
+    },
+    "ability_rogue_eviscerate": {
+      "path": "assets/icons/ability_rogue_eviscerate.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_eviscerate.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2004,
+      "sha256": "5685b3d8d1f90b9a5fcae8d1fde1d3125ad0c8e08755306cc51d41d65dd3ee31"
+    },
+    "ability_rogue_feigndeath": {
+      "path": "assets/icons/ability_rogue_feigndeath.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_feigndeath.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2035,
+      "sha256": "9466ca200ab9334bf9866d41a1b8e6cc9cf390193bac7e17f5d22e31731ae25f"
+    },
+    "ability_rogue_feint": {
+      "path": "assets/icons/ability_rogue_feint.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_feint.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1512,
+      "sha256": "1a17ce482c0583df2d3c94e0acb07de2cb6d58b34e300cd8c8ecdb1cee520cae"
+    },
+    "ability_rogue_fleetfooted": {
+      "path": "assets/icons/ability_rogue_fleetfooted.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_fleetfooted.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1825,
+      "sha256": "ce37ac33cc1b882992d64601739e470eafd22df3123fc8ba412b9f9f3915b2c3"
+    },
+    "ability_rogue_garrote": {
+      "path": "assets/icons/ability_rogue_garrote.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_garrote.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1382,
+      "sha256": "2ceb5fbbc5c81c1f5fd31999c9d3d4d6e2179332ef0f21abddfa6f46efa3f892"
+    },
+    "ability_rogue_kidneyshot": {
+      "path": "assets/icons/ability_rogue_kidneyshot.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_kidneyshot.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2018,
+      "sha256": "d1291001e76fe774e33fc413e4fb0b68bf6cfed1f81826aa421b58c6964f43c9"
+    },
+    "ability_rogue_murderspree": {
+      "path": "assets/icons/ability_rogue_murderspree.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_murderspree.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2103,
+      "sha256": "40862405e070e2fe9b62f8ebca6f468e5d18e31a80fc8d82905315d73a944361"
+    },
+    "ability_rogue_rupture": {
+      "path": "assets/icons/ability_rogue_rupture.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_rupture.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2078,
+      "sha256": "0117c0d23d24a4f0dcd0553ef6bd2d249c415d38b132e8233b036f34655e0164"
+    },
+    "ability_rogue_slicedice": {
+      "path": "assets/icons/ability_rogue_slicedice.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_slicedice.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1799,
+      "sha256": "d55445d14ec8ef01e32ebd017d4b6b9c3053bc7ce09990fb16beebc41050fca8"
+    },
+    "ability_rogue_sprint": {
+      "path": "assets/icons/ability_rogue_sprint.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_sprint.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2073,
+      "sha256": "90bec05d67d8bfe976b5b74a1eb499cc3eb12644b23b4678b62cc5927ecfba8f"
+    },
+    "ability_rogue_sprint_blue": {
+      "path": "assets/icons/ability_rogue_sprint_blue.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_sprint_blue.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1874,
+      "sha256": "36f655a822306d5871e46e625227710037034b2e05500a3eb13c23b39201ccff"
+    },
+    "ability_sap": {
+      "path": "assets/icons/ability_sap.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_sap.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1702,
+      "sha256": "d9b15afa39a00efeecf50d25b9cfff1020acd78bd730346d163fdbec4034e7f7"
+    },
+    "ability_spy": {
+      "path": "assets/icons/ability_spy.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_spy.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1511,
+      "sha256": "56fcb504219e4d6663eb1b2dcd1c6856791bc48a108d397cdf944da663101002"
+    },
+    "ability_stealth": {
+      "path": "assets/icons/ability_stealth.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_stealth.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1822,
+      "sha256": "011391b8305f32c81be883966024cccb6cb02fef9b25fde5211c56fe12c30daf"
+    },
+    "ability_vanish": {
+      "path": "assets/icons/ability_vanish.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_vanish.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1043,
+      "sha256": "727436dc35839e76966f9d94320da118f3aba65c33b352ff24123871974b5842"
+    },
+    "ability_warrior_challange": {
+      "path": "assets/icons/ability_warrior_challange.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_warrior_challange.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2068,
+      "sha256": "41e78f4bb45c94e1648f2151c0eaecabbad30c108eb8816c5663887a92dd4cb4"
+    },
+    "ability_warrior_decisivestrike": {
+      "path": "assets/icons/ability_warrior_decisivestrike.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_warrior_decisivestrike.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1892,
+      "sha256": "f7145e5f3923f9dda413331e96b40f3bb3324a394b39b9fcb3196f2f357e53c1"
+    },
+    "ability_warrior_punishingblow": {
+      "path": "assets/icons/ability_warrior_punishingblow.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_warrior_punishingblow.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1807,
+      "sha256": "a83939c72ec871b84038d2e69f5828945b84903e88e285a5990f0d83b955be13"
+    },
+    "ability_warrior_riposte": {
+      "path": "assets/icons/ability_warrior_riposte.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_warrior_riposte.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1660,
+      "sha256": "bed6683c4f997476975d04951698282e54d631d5308d3e1c8d6b5db3e28eda15"
+    },
+    "ability_warrior_warcry": {
+      "path": "assets/icons/ability_warrior_warcry.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/ability_warrior_warcry.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2117,
+      "sha256": "b53204f83a2787d5ab092f16a30f6efa397a00301eaf86e0d4e4e4b66d632604"
+    },
+    "classicon_rogue": {
+      "path": "assets/icons/classicon_rogue.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1946,
+      "sha256": "00f1e760e8ca463beb8c93d47b303c9df1e2c5c43c6e94c3e00362f7c3ad6b7e"
+    },
+    "inv_chest_leather_05": {
+      "path": "assets/icons/inv_chest_leather_05.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_leather_05.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1590,
+      "sha256": "5486ce0da1e323728e57be78e6e97fa9f19496397ce4a7f1a631b06a25ed85bc"
+    },
+    "inv_feather_01": {
+      "path": "assets/icons/inv_feather_01.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_feather_01.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1193,
+      "sha256": "b376183daa1c126540f978d2d3db817e23418bed892ff96f036181f3468a04bd"
+    },
+    "inv_misc_ammo_gunpowder_02": {
+      "path": "assets/icons/inv_misc_ammo_gunpowder_02.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_ammo_gunpowder_02.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1662,
+      "sha256": "07be662445e047fe3bb3c6619d06fb73fcb85fc36710604629b0bb642f22efff"
+    },
+    "inv_misc_bag_11": {
+      "path": "assets/icons/inv_misc_bag_11.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_bag_11.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1516,
+      "sha256": "fe6d720ffb780b4fe445b6384a13795177fdbeb92a4c83d43964dc89ae2d6409"
+    },
+    "inv_misc_book_07": {
+      "path": "assets/icons/inv_misc_book_07.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_book_07.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2143,
+      "sha256": "d8dd2c671f361457e93e530804285f8a90fc02e6c4b781c8309d3a62b019db46"
+    },
+    "inv_misc_book_09": {
+      "path": "assets/icons/inv_misc_book_09.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_book_09.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1807,
+      "sha256": "96e78430bca4f44617baecbb548c3d99e2a1e84318e33850212a48e300c5b0ad"
+    },
+    "inv_misc_coin_02": {
+      "path": "assets/icons/inv_misc_coin_02.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_coin_02.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1996,
+      "sha256": "4295f052deec65381771a45036cc486ca586492cd4364fcf6e6ae8a5c066f6eb"
+    },
+    "inv_misc_food_15": {
+      "path": "assets/icons/inv_misc_food_15.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_food_15.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1655,
+      "sha256": "b49879cac352eb6b3ea7823d8665b9a260f610e03ac9b275d00fc3c717e50b6b"
+    },
+    "inv_misc_herb_16": {
+      "path": "assets/icons/inv_misc_herb_16.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_herb_16.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1871,
+      "sha256": "544649045ec47bd23bdaac9ba9d69f3b4975f1c6035848c79b7030964c5cb753"
+    },
+    "inv_misc_note_01": {
+      "path": "assets/icons/inv_misc_note_01.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_note_01.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1602,
+      "sha256": "41572810abe51571fbaed405d6519614fcc3cf2a52390a0d1eeaf1ccb9a0cc1f"
+    },
+    "inv_misc_pelt_wolf_01": {
+      "path": "assets/icons/inv_misc_pelt_wolf_01.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_pelt_wolf_01.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1621,
+      "sha256": "873cbb6e156b733f22b84aeb4e9e17da120d736fa9ddf243e1e9a85835b69e12"
+    },
+    "inv_misc_pocketwatch_01": {
+      "path": "assets/icons/inv_misc_pocketwatch_01.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_pocketwatch_01.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2116,
+      "sha256": "79bd5eebc824aa95381b07f6dce8601066ae7dc1a372b62152a04a7d265b9f64"
+    },
+    "inv_sword_17": {
+      "path": "assets/icons/inv_sword_17.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_17.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1679,
+      "sha256": "ec5cc449bac44b36bf50727ed45df6e57eac656a34b9e658fd0bfeae904a8bb1"
+    },
+    "inv_sword_27": {
+      "path": "assets/icons/inv_sword_27.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_27.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1558,
+      "sha256": "064dbd04978bb8db37983b9e53610f2f839c0ce69c5db992ff4d8c225a999a79"
+    },
+    "inv_sword_31": {
+      "path": "assets/icons/inv_sword_31.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_31.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1623,
+      "sha256": "68b53636cb8c853a7774665821725c1e7e4018b27d48a31c01031948458f039c"
+    },
+    "inv_sword_35": {
+      "path": "assets/icons/inv_sword_35.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_35.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1991,
+      "sha256": "3107747081f5b3a06cd8b4a54abf72e0685358381fff540f996d17c7a93a56e0"
+    },
+    "inv_throwingknife_04": {
+      "path": "assets/icons/inv_throwingknife_04.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_throwingknife_04.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1778,
+      "sha256": "07903665b09e0b767009fe837918229aabc7c4aedea5eb141e0d6ed1ff9ba497"
+    },
+    "inv_throwingknife_07": {
+      "path": "assets/icons/inv_throwingknife_07.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/inv_throwingknife_07.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1790,
+      "sha256": "206f18bd917596488d8995b62d2e7e9b3cda05d00b076c0d9dd6c2e5336369d4"
+    },
+    "spell_holy_blessingofstrength": {
+      "path": "assets/icons/spell_holy_blessingofstrength.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_blessingofstrength.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2300,
+      "sha256": "6faca389dd1ff84f60972b61084e70338e4aa8fa30056d04939416d9012a3f45"
+    },
+    "spell_holy_sealofsacrifice": {
+      "path": "assets/icons/spell_holy_sealofsacrifice.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_sealofsacrifice.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2119,
+      "sha256": "d2282379ba9e3647b9bfe7a3c9d7ba7e63e678cb383df7496e9e84d7a01a81fa"
+    },
+    "spell_ice_lament": {
+      "path": "assets/icons/spell_ice_lament.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_ice_lament.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2126,
+      "sha256": "8a86773b261f0baa1289bc4842fade4cfdeb7a9483cc32e0ca29deb1c4d704f8"
+    },
+    "spell_magic_lesserinvisibilty": {
+      "path": "assets/icons/spell_magic_lesserinvisibilty.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_magic_lesserinvisibilty.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1625,
+      "sha256": "5cee8a51afc8b50522a146468890a104bf3319321f958e78cc8859cbd4100a11"
+    },
+    "spell_nature_earthbindtotem": {
+      "path": "assets/icons/spell_nature_earthbindtotem.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_earthbindtotem.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2103,
+      "sha256": "c34610ec495e48c332006d31910ff10bf5b1f0512cab872f65e820d8ae51f6f5"
+    },
+    "spell_nature_invisibilty": {
+      "path": "assets/icons/spell_nature_invisibilty.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_invisibilty.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1664,
+      "sha256": "cc9b65a5268dbcc5c2a69de44aabbed0ccdbd42bb8e1e32e9135aac85ccfd816"
+    },
+    "spell_nature_mirrorimage": {
+      "path": "assets/icons/spell_nature_mirrorimage.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_mirrorimage.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1981,
+      "sha256": "593b9222bcbc89e5c4fb439afa2fbef6206f6da8ac567000b00e001a5cd4518c"
+    },
+    "spell_nature_naturetouchgrow": {
+      "path": "assets/icons/spell_nature_naturetouchgrow.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_naturetouchgrow.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1700,
+      "sha256": "d4eb287bcb77208cb33f3fc02fd036aa47c18e1b4365ce2f422dd00068d02fa9"
+    },
+    "spell_nature_nullifydisease": {
+      "path": "assets/icons/spell_nature_nullifydisease.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_nullifydisease.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2490,
+      "sha256": "445bb170316044cc7b80266eb58ebd831bbb11b3461b640a99918780c6247c47"
+    },
+    "spell_shadow_antishadow": {
+      "path": "assets/icons/spell_shadow_antishadow.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_antishadow.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2288,
+      "sha256": "e2f416e4974d05af3d7f46f45bdba7ec3d6865271cce93612ca374735a2416df"
+    },
+    "spell_shadow_charm": {
+      "path": "assets/icons/spell_shadow_charm.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_charm.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1465,
+      "sha256": "c424e5b28f48d0acb90036bcf1987f4709227e53f648f3b6f674c10160d308db"
+    },
+    "spell_shadow_chilltouch": {
+      "path": "assets/icons/spell_shadow_chilltouch.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_chilltouch.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1479,
+      "sha256": "0600c9221fd3a7e4d1241841928f6a235590ef1fa11ef063ad06a39069d834e4"
+    },
+    "spell_shadow_curse": {
+      "path": "assets/icons/spell_shadow_curse.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_curse.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1887,
+      "sha256": "3e6015bd798fcad5c7961a8ef9ddbd2ef6f9e02c05a1ac1653d9960f944a5391"
+    },
+    "spell_shadow_fumble": {
+      "path": "assets/icons/spell_shadow_fumble.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_fumble.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1982,
+      "sha256": "4f9723479c205cb9b9a0cc008fac357572639bce57a47143809b38886e236ef0"
+    },
+    "spell_shadow_grimward": {
+      "path": "assets/icons/spell_shadow_grimward.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_grimward.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1866,
+      "sha256": "cb3e5ab74d6031aeebc5639a906b8b56035f7009b53c3248faea7841ee8bf626"
+    },
+    "spell_shadow_lifedrain": {
+      "path": "assets/icons/spell_shadow_lifedrain.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_lifedrain.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1272,
+      "sha256": "2b43024ccfe8fc3a25506256994e53972608fcb834a3a7628a5a3bba1b3baa34"
+    },
+    "spell_shadow_mindsteal": {
+      "path": "assets/icons/spell_shadow_mindsteal.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_mindsteal.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1559,
+      "sha256": "23b2e77ec483c0b35a6797364896671eb45883da22c5e82f08a4a3170b3178cf"
+    },
+    "spell_shadow_possession": {
+      "path": "assets/icons/spell_shadow_possession.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_possession.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1497,
+      "sha256": "c0b25325fb2053c662477a4566a558464e2f14e9e8307c263a8e414630d95af3"
+    },
+    "spell_shadow_raisedead": {
+      "path": "assets/icons/spell_shadow_raisedead.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_raisedead.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1789,
+      "sha256": "c009ad34cd82b80842491931f2a5f44ca65f78a14e83b7b959cedcce40b6ad84"
+    },
+    "spell_shadow_ritualofsacrifice": {
+      "path": "assets/icons/spell_shadow_ritualofsacrifice.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_ritualofsacrifice.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1875,
+      "sha256": "36342a241bbf79307ddcd165ab9eef374ffd67cc2a605304f06ce54de8d65aa9"
+    },
+    "spell_shadow_shadowward": {
+      "path": "assets/icons/spell_shadow_shadowward.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_shadowward.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 2306,
+      "sha256": "503e40bedea406664ca6b4e43d09ec611f8add0366b4d0681173e2691eba448f"
+    },
+    "spell_shadow_shadowworddominate": {
+      "path": "assets/icons/spell_shadow_shadowworddominate.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_shadowworddominate.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1716,
+      "sha256": "d8c2ef10c48b8f23bb396f65be6442e23c444163596265f8c62641bc20151784"
+    },
+    "spell_shadow_summonsuccubus": {
+      "path": "assets/icons/spell_shadow_summonsuccubus.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_summonsuccubus.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1821,
+      "sha256": "93a3cd8c8707d95c3edf87ca168987e05a62ee3acf309c26706400e566aa81c5"
+    },
+    "trade_alchemy": {
+      "path": "assets/icons/trade_alchemy.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/trade_alchemy.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1616,
+      "sha256": "be86253b3937f445e3b40ed0e7f4e8585d98ab86e26f61d75bc3943c8faec790"
+    },
+    "trade_blacksmithing": {
+      "path": "assets/icons/trade_blacksmithing.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/trade_blacksmithing.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1773,
+      "sha256": "58f64f7d12fb07b5a978e3b22622e1ea9891bcc7de7327612ab7b4e7025dde77"
+    },
+    "trade_engineering": {
+      "path": "assets/icons/trade_engineering.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/trade_engineering.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1794,
+      "sha256": "66752d43375e9ebefcda71d8c9b63593e1b73f7eaf102d90cb687ee978993561"
+    },
+    "trade_engraving": {
+      "path": "assets/icons/trade_engraving.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/trade_engraving.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1944,
+      "sha256": "9810aee5b94ee2eb1cf8f31eea5da89512f84589c033a4bbdba1696f65cc1747"
+    },
+    "trade_fishing": {
+      "path": "assets/icons/trade_fishing.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/trade_fishing.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1486,
+      "sha256": "d46ac22d85e2b6695f16a8812948346eb1c60f2ca571c43088e46de93a29b2c5"
+    },
+    "trade_leatherworking": {
+      "path": "assets/icons/trade_leatherworking.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/trade_leatherworking.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1506,
+      "sha256": "5679e55b1fa228e445fba0a9dc259a4061999788032dfe1fba4db9e95adb9b57"
+    },
+    "trade_mining": {
+      "path": "assets/icons/trade_mining.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/trade_mining.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1514,
+      "sha256": "ac629384b2bc8ed438c639d6f34c51a88a83f814284b1a8130afecf0a0a1b165"
+    },
+    "trade_tailoring": {
+      "path": "assets/icons/trade_tailoring.jpg",
+      "sourceUrl": "https://wow.zamimg.com/images/wow/icons/large/trade_tailoring.jpg",
+      "mime": "image/jpeg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1752,
+      "sha256": "38968f3c8bc83fec4435c07ddea5bc04791e3f0e49c733c36da305d90b925c1c"
+    }
+  },
+  "missing": []
+}

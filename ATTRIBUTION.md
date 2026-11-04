@@ -1,0 +1,23 @@
+# Attribution and data rights
+
+This is an unofficial personal fan guide for Sinix Grimm. It is not endorsed by Blizzard Entertainment.
+
+- **World of Warcraft: Forever logo:** recovered unchanged from the owner’s reference guide, `Kozmek/kozmek-warrior-guide`, main-branch HTML blob `0c0e99b82430813e729dd52a99461fb568fe79d5`. The actual embedded logo is 250 × 212 JPEG; the original Horde emblem is a 286 × 483 PNG. Game marks and art belong to Blizzard Entertainment. This package does not grant trademark rights.
+- **Reference design:** the owner’s existing guide at https://kozmek.github.io/kozmek-warrior-guide/ was inspected read only. Its current content is Shaman despite the repository name. The green edition continues the recovered Rogue v1 and adapts the owner’s requested visual and functional structure.
+- **Talent and training data:** adapted from https://talentsforever.com/export/rogue.json, generated November 3, 2026, client build 1.60.1.70753 with official November 2 tuning overlay. Credit: Talents Forever / Chris Baldwin. Licensed CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Changes: Rogue-only reduction, omission of Classic fallback spell records, reformatted data and a separate local planner. Original spell/tooltip text belongs to Blizzard Entertainment. The fan dataset may lag live updates.
+- **Research:** official Blizzard articles are linked in `SOURCES.md` and in the site. Item records are separately labeled database evidence. Gameplay names and factual requirements are used for reference.
+- **Rogue hero illustration:** original AI-generated artwork created for this project with the built-in image generation tool, then resized/encoded as local WebP variants. It is fan concept art, not official Blizzard art or an actual in-game character screenshot. See `ARTWORK.md` for the final prompt and asset paths.
+
+The dataset’s CC BY license does not automatically license the entire website, logos or other artwork under CC BY. Preserve relevant credits when updating or publishing.
+
+## v2.1 actual game icons and item snapshots
+
+Actual Blizzard skill, talent, navigation, profession and item icons are bundled locally from Wowhead’s zamimg CDN. Their mapping and source checksums are recorded in source/icon-provenance.json. Six complete item tooltips were retrieved from https://nether.wowhead.com/forever/tooltip/item/{id}, the Forever-specific endpoint used by the reference. The source snapshots are retained in source/wowhead-item-snapshots.json. Rendered markup removes executable content and repeated IDs; item/spell links are rewritten to absolute Wowhead URLs. Stats, requirements and effects are preserved. Database drop percentages are sample statistics rather than live-tested guarantees.
+
+## v2.2 talent boards and expanded item catalog
+
+The three actual Rogue tree backgrounds were recovered unchanged from https://talentsforever.com/assets/bg/182.jpg (Assassination), /181.jpg (Combat), and /183.jpg (Subtlety). These are Blizzard game artwork, credited separately from the fan-maintained CC BY dataset. Exact source URLs, dimensions and SHA-256 hashes are in `source/talent-tree-assets.json`. The new local board follows the requested calculator's four-column/seven-row layout; the implementation is part of this independent guide.
+
+The expanded 1,223-record catalog uses each actual item ID's Wowhead tooltip: `https://nether.wowhead.com/forever/tooltip/item/{id}`, or an explicitly labeled `https://nether.wowhead.com/classic/tooltip/item/{id}` fallback. The 1,223 local item icons use the inspected `wow.zamimg.com` icon names. Per-item URLs, checked date, complete statistics, source labels, icon hashes and sanitized tooltip markup are retained in `source/guide-data.json` (`itemTooltips`). Display markup removes scripts, repeated IDs, event handlers, inline styles and unrelated resource URLs; item/spell links are absolute HTTPS Wowhead links.
+
+Item-ID discovery and acquisition hints used complete named JSON snapshots from https://github.com/Napalmsteak/WoW-Classic-Item-Caches (Forever Cache and Classic Era Cache), plus https://github.com/nexus-devs/wow-classic-items (data/json/data.json). These are discovery/reference sources, not official evidence of Forever availability. Snapshot URLs, hashes, record counts, attempted-ID reconciliation and limitations are recorded in `source/weapon-catalog-coverage.json`. Classic quest names and factions remain explicitly Classic reference metadata. No license is asserted over third-party game art or database text, and no rights are granted to redistribute Blizzard trademarks beyond applicable permissions.

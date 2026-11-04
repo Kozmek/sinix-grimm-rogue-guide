@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "ruleset": "World of Warcraft: Forever",
+  "checked": "2026-11-03",
+  "endpointPattern": "https://nether.wowhead.com/forever/tooltip/item/{itemId}",
+  "endpointDiscovery": "Copied Forever endpoint pattern from existing reference-index.html. No dataEnv parameter was used or guessed.",
+  "sourcePolicy": "Exact current Wowhead Forever tooltip HTML, metadata and icons. Preserve distinction between client database statistics and practical acquisition; no live gameplay verification.",
+  "items": [
+    {
+      "id": "wingblade",
+      "itemId": 6504,
+      "name": "Wingblade",
+      "quality": 3,
+      "icon": "inv_sword_16",
+      "iconPath": "assets/icons/item-6504.jpg",
+      "iconSource": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_16.jpg",
+      "iconBytes": 1411,
+      "iconSha256": "78275df868ff9e8ef75d732664b34a059c4a0e548cd4d95897efcd4943a5498e",
+      "pageUrl": "https://www.wowhead.com/forever/item=6504/wingblade",
+      "tooltipUrl": "https://nether.wowhead.com/forever/tooltip/item/6504",
+      "checked": "2026-11-03",
+      "confidence": "database",
+      "acquisition": "Forever list associates it with Leaders of the Fang in Wailing Caverns.",
+      "acquisitionNote": "Acquisition remains database-listed; not tested on the live launch client. Tooltip drop percentages are Wowhead sample values, not guaranteed Forever rates.",
+      "html": "<table><tr><td><!--nstart--><b class=\"q3\">Wingblade</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->24</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Main Hand</td><th><!--scstart2:7--><span class=\"q1\">Sword</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->24 - 45 Damage</span></td>\n    <th>Speed <!--spd-->2.20</th>\n</tr></table><!--dps-->(15.68 damage per second)<br><span><!--stat3-->+5 Agility</span><br><span><!--stat7-->+2 Stamina</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 75 / 75</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">28</span> <span class=\"moneycopper\">83</span></div></td></tr></table>",
+      "lines": [
+        "Wingblade",
+        "Item Level 24",
+        "Binds when picked up",
+        "Main Hand  Sword",
+        "24 - 45 Damage",
+        "Speed 2.20",
+        "(15.68 damage per second)",
+        "+5 Agility",
+        "+2 Stamina",
+        "Durability 75 / 75",
+        "Sell Price: 28 83"
+      ],
+      "stats": {
+        "itemLevel": 24,
+        "reqLevel": null,
+        "binding": "Binds when picked up",
+        "uniqueEquipped": false,
+        "slot": "Main Hand",
+        "type": "Sword",
+        "minDamage": 24,
+        "maxDamage": 45,
+        "speed": 2.2,
+        "dps": 15.68,
+        "durability": {
+          "current": 75,
+          "max": 75
+        },
+        "statLines": [
+          "+5 Agility",
+          "+2 Stamina"
+        ],
+        "effectLines": [],
+        "classes": null,
+        "sellPrice": {
+          "gold": 0,
+          "silver": 28,
+          "copper": 83
+        },
+        "tooltipDroppedBy": null
+      },
+      "spells": [],
+      "iconWidth": 56,
+      "iconHeight": 56
+    },
+    {
+      "id": "cruel-barb",
+      "itemId": 5191,
+      "name": "Cruel Barb",
+      "quality": 3,
+      "icon": "inv_sword_24",
+      "iconPath": "assets/icons/item-5191.jpg",
+      "iconSource": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_24.jpg",
+      "iconBytes": 1517,
+      "iconSha256": "eb344fe60a164f97b13533ed7065321b2582f8b41a66816d4afe08ebee36a6b3",
+      "pageUrl": "https://www.wowhead.com/forever/item=5191/cruel-barb",
+      "tooltipUrl": "https://nether.wowhead.com/forever/tooltip/item/5191",
+      "checked": "2026-11-03",
+      "confidence": "database",
+      "acquisition": "Forever item record lists Edwin VanCleef in the Deadmines.",
+      "acquisitionNote": "Acquisition remains database-listed; not tested on the live launch client. Tooltip drop percentages are Wowhead sample values, not guaranteed Forever rates.",
+      "html": "<table><tr><td><!--nstart--><b class=\"q3\">Cruel Barb</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->24</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>One-Hand</td><th><!--scstart2:7--><span class=\"q1\">Sword</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->30 - 57 Damage</span></td>\n    <th>Speed <!--spd-->2.80</th>\n</tr></table><!--dps-->(15.54 damage per second)<!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 75 / 75</td></tr></table><table><tr><td>Requires Level <!--rlvl-->19<br><!--rr--><span class=\"q2\">Equip: +<!--rtg38-->12 Attack Power.</span><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">28</span> <span class=\"moneycopper\">83</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Edwin VanCleef</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 15.88%</div></td></tr></table><!--i?5191:1:60:19-->",
+      "lines": [
+        "Cruel Barb",
+        "Item Level 24",
+        "Binds when picked up",
+        "One-Hand  Sword",
+        "30 - 57 Damage",
+        "Speed 2.80",
+        "(15.54 damage per second)",
+        "Durability 75 / 75",
+        "Requires Level 19",
+        "Equip: +12 Attack Power.",
+        "Sell Price: 28 83",
+        "Dropped by: Edwin VanCleef",
+        "Drop Chance: 15.88%"
+      ],
+      "stats": {
+        "itemLevel": 24,
+        "reqLevel": 19,
+        "binding": "Binds when picked up",
+        "uniqueEquipped": false,
+        "slot": "One-Hand",
+        "type": "Sword",
+        "minDamage": 30,
+        "maxDamage": 57,
+        "speed": 2.8,
+        "dps": 15.54,
+        "durability": {
+          "current": 75,
+          "max": 75
+        },
+        "statLines": [],
+        "effectLines": [
+          "Equip: +12 Attack Power."
+        ],
+        "classes": null,
+        "sellPrice": {
+          "gold": 0,
+          "silver": 28,
+          "copper": 83
+        },
+        "tooltipDroppedBy": "Edwin VanCleef"
+      },
+      "spells": [],
+      "iconWidth": 56,
+      "iconHeight": 56
+    },
+    {
+      "id": "ruby-blade",
+      "itemId": 277246,
+      "name": "Ruby-Adorned Blade",
+      "quality": 3,
+      "icon": "inv_sword_07",
+      "iconPath": "assets/icons/item-277246.jpg",
+      "iconSource": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_07.jpg",
+      "iconBytes": 2381,
+      "iconSha256": "cb5c45b804e7e5f2d7f6dc47854b5afbd06e53045d259b24a22d4a6697a8dff1",
+      "pageUrl": "https://www.wowhead.com/forever/item=277246/ruby-adorned-blade",
+      "tooltipUrl": "https://nether.wowhead.com/forever/tooltip/item/277246",
+      "checked": "2026-11-03",
+      "confidence": "database",
+      "acquisition": "Listed reward for The Eye of Bhossca. Inspect the Rogue quest chain in your client.",
+      "acquisitionNote": "Acquisition remains database-listed; not tested on the live launch client. Tooltip drop percentages are Wowhead sample values, not guaranteed Forever rates.",
+      "html": "<table><tr><td><!--nstart--><b class=\"q3\">Ruby-Adorned Blade</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->36</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>One-Hand</td><th><!--scstart2:7--><span class=\"q1\">Sword</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->38 - 72 Damage</span></td>\n    <th>Speed <!--spd-->2.30</th>\n</tr></table><!--dps-->(23.91 damage per second)<br><span><!--stat3-->+3 Agility</span><br><span><!--stat7-->+8 Stamina</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 90 / 90<div class=\"wowhead-tooltip-item-classes\">Classes: <a href=\"/forever/class=4/rogue\" class=\"c4\">Rogue</a></div></td></tr></table><table><tr><td><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">97</span> <span class=\"moneycopper\">92</span></div></td></tr></table>",
+      "lines": [
+        "Ruby-Adorned Blade",
+        "Item Level 36",
+        "Binds when picked up",
+        "One-Hand  Sword",
+        "38 - 72 Damage",
+        "Speed 2.30",
+        "(23.91 damage per second)",
+        "+3 Agility",
+        "+8 Stamina",
+        "Durability 90 / 90",
+        "Classes: Rogue",
+        "Sell Price: 97 92"
+      ],
+      "stats": {
+        "itemLevel": 36,
+        "reqLevel": null,
+        "binding": "Binds when picked up",
+        "uniqueEquipped": false,
+        "slot": "One-Hand",
+        "type": "Sword",
+        "minDamage": 38,
+        "maxDamage": 72,
+        "speed": 2.3,
+        "dps": 23.91,
+        "durability": {
+          "current": 90,
+          "max": 90
+        },
+        "statLines": [
+          "+3 Agility",
+          "+8 Stamina"
+        ],
+        "effectLines": [],
+        "classes": "Classes: Rogue",
+        "sellPrice": {
+          "gold": 0,
+          "silver": 97,
+          "copper": 92
+        },
+        "tooltipDroppedBy": null
+      },
+      "spells": [],
+      "iconWidth": 56,
+      "iconHeight": 56
+    },
+    {
+      "id": "meteor-shard",
+      "itemId": 6220,
+      "name": "Meteor Shard",
+      "quality": 3,
+      "icon": "inv_weapon_shortblade_25",
+      "iconPath": "assets/icons/item-6220.jpg",
+      "iconSource": "https://wow.zamimg.com/images/wow/icons/large/inv_weapon_shortblade_25.jpg",
+      "iconBytes": 1574,
+      "iconSha256": "0c43817ba8241c576534a4b4b1ef5c161eec37bb0ceeedbeaf9c82d53818b68f",
+      "pageUrl": "https://www.wowhead.com/forever/item=6220/meteor-shard",
+      "tooltipUrl": "https://nether.wowhead.com/forever/tooltip/item/6220",
+      "checked": "2026-11-03",
+      "confidence": "database",
+      "acquisition": "Forever database extraction lists Archmage Arugal in Shadowfang Keep.",
+      "acquisitionNote": "Acquisition remains database-listed; not tested on the live launch client. Tooltip drop percentages are Wowhead sample values, not guaranteed Forever rates.",
+      "html": "<table><tr><td><!--nstart--><b class=\"q3\">Meteor Shard</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->28</span><!--bo--><br>Binds when picked up<br>Unique-Equipped<!--ue--><!--ue--><table width=\"100%\"><tr><td>One-Hand</td><th><!--scstart2:15--><span class=\"q1\">Dagger</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->22 - 42 Damage</span></td>\n    <th>Speed <!--spd-->1.80</th>\n</tr></table><!--dps-->(17.78 damage per second)<!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><br>+3 Fire Resistance<!--e--><!--ps--><br>Durability 65 / 65</td></tr></table><table><tr><td>Requires Level <!--rlvl-->23<br><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Chance on hit: <!--useEffect:0:1--><a href=\"/forever/spell=1292152/firebolt\" class=\"q2\">Blasts a target for 42 Fire damage.</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">44</span> <span class=\"moneycopper\">55</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Archmage Arugal</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 18.40%</div></td></tr></table>",
+      "lines": [
+        "Meteor Shard",
+        "Item Level 28",
+        "Binds when picked up",
+        "Unique-Equipped",
+        "One-Hand  Dagger",
+        "22 - 42 Damage",
+        "Speed 1.80",
+        "(17.78 damage per second)",
+        "+3 Fire Resistance",
+        "Durability 65 / 65",
+        "Requires Level 23",
+        "Chance on hit: Blasts a target for 42 Fire damage.",
+        "Sell Price: 44 55",
+        "Dropped by: Archmage Arugal",
+        "Drop Chance: 18.40%"
+      ],
+      "stats": {
+        "itemLevel": 28,
+        "reqLevel": 23,
+        "binding": "Binds when picked up",
+        "uniqueEquipped": true,
+        "slot": "One-Hand",
+        "type": "Dagger",
+        "minDamage": 22,
+        "maxDamage": 42,
+        "speed": 1.8,
+        "dps": 17.78,
+        "durability": {
+          "current": 65,
+          "max": 65
+        },
+        "statLines": [
+          "+3 Fire Resistance"
+        ],
+        "effectLines": [
+          "Chance on hit: Blasts a target for 42 Fire damage."
+        ],
+        "classes": null,
+        "sellPrice": {
+          "gold": 0,
+          "silver": 44,
+          "copper": 55
+        },
+        "tooltipDroppedBy": "Archmage Arugal"
+      },
+      "spells": [],
+      "iconWidth": 56,
+      "iconHeight": 56
+    },
+    {
+      "id": "toxic-revenger",
+      "itemId": 9453,
+      "name": "Toxic Revenger",
+      "quality": 3,
+      "icon": "inv_weapon_shortblade_02",
+      "iconPath": "assets/icons/item-9453.jpg",
+      "iconSource": "https://wow.zamimg.com/images/wow/icons/large/inv_weapon_shortblade_02.jpg",
+      "iconBytes": 1410,
+      "iconSha256": "674c9515838d9760530cf586956266e352567da29d2b9ce69140328ec7b7fffb",
+      "pageUrl": "https://www.wowhead.com/forever/item=9453/toxic-revenger",
+      "tooltipUrl": "https://nether.wowhead.com/forever/tooltip/item/9453",
+      "checked": "2026-11-03",
+      "confidence": "database",
+      "acquisition": "Forever database extraction lists Viscous Fallout in Gnomeregan.",
+      "acquisitionNote": "Acquisition remains database-listed; not tested on the live launch client. Tooltip drop percentages are Wowhead sample values, not guaranteed Forever rates.",
+      "html": "<table><tr><td><!--nstart--><b class=\"q3\">Toxic Revenger</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->32</span><!--bo--><br>Binds when picked up<br>Unique-Equipped<!--ue--><!--ue--><table width=\"100%\"><tr><td>One-Hand</td><th><!--scstart2:15--><span class=\"q1\">Dagger</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->27 - 51 Damage</span></td>\n    <th>Speed <!--spd-->1.90</th>\n</tr></table><!--dps-->(20.53 damage per second)<!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 65 / 65</td></tr></table><table><tr><td>Requires Level <!--rlvl-->27<br><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Chance on hit: <!--useEffect:0:1--><a href=\"/forever/spell=11790/poison-cloud\" class=\"q2\">Deals 14 Nature damage every 3 sec to any enemy in an 8 yard radius around the caster for 12 sec.</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">65</span> <span class=\"moneycopper\">22</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Viscous Fallout</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 18.25%</div></td></tr></table>",
+      "lines": [
+        "Toxic Revenger",
+        "Item Level 32",
+        "Binds when picked up",
+        "Unique-Equipped",
+        "One-Hand  Dagger",
+        "27 - 51 Damage",
+        "Speed 1.90",
+        "(20.53 damage per second)",
+        "Durability 65 / 65",
+        "Requires Level 27",
+        "Chance on hit: Deals 14 Nature damage every 3 sec to any enemy in an 8 yard radius around the caster for 12 sec.",
+        "Sell Price: 65 22",
+        "Dropped by: Viscous Fallout",
+        "Drop Chance: 18.25%"
+      ],
+      "stats": {
+        "itemLevel": 32,
+        "reqLevel": 27,
+        "binding": "Binds when picked up",
+        "uniqueEquipped": true,
+        "slot": "One-Hand",
+        "type": "Dagger",
+        "minDamage": 27,
+        "maxDamage": 51,
+        "speed": 1.9,
+        "dps": 20.53,
+        "durability": {
+          "current": 65,
+          "max": 65
+        },
+        "statLines": [],
+        "effectLines": [
+          "Chance on hit: Deals 14 Nature damage every 3 sec to any enemy in an 8 yard radius around the caster for 12 sec."
+        ],
+        "classes": null,
+        "sellPrice": {
+          "gold": 0,
+          "silver": 65,
+          "copper": 22
+        },
+        "tooltipDroppedBy": "Viscous Fallout"
+      },
+      "spells": [],
+      "iconWidth": 56,
+      "iconHeight": 56
+    },
+    {
+      "id": "thrash-blade",
+      "itemId": 17705,
+      "name": "Thrash Blade",
+      "quality": 3,
+      "icon": "inv_sword_36",
+      "iconPath": "assets/icons/item-17705.jpg",
+      "iconSource": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_36.jpg",
+      "iconBytes": 1283,
+      "iconSha256": "5d292135641067a90f54f37a026a4ac1e270221dda88c315e9b049fb4b80acac",
+      "pageUrl": "https://www.wowhead.com/forever/item=17705/thrash-blade",
+      "tooltipUrl": "https://nether.wowhead.com/forever/tooltip/item/17705",
+      "checked": "2026-11-03",
+      "confidence": "database",
+      "acquisition": "Opened Forever record lists a Desolace vendor source; the exact live quest route remains unverified here.",
+      "acquisitionNote": "Acquisition remains database-listed; not tested on the live launch client. Tooltip drop percentages are Wowhead sample values, not guaranteed Forever rates.",
+      "html": "<table><tr><td><!--nstart--><b class=\"q3\">Thrash Blade</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->53</span><!--bo--><br>Binds when picked up<br>Unique-Equipped<!--ue--><!--ue--><table width=\"100%\"><tr><td>One-Hand</td><th><!--scstart2:7--><span class=\"q1\">Sword</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->66 - 124 Damage</span></td>\n    <th>Speed <!--spd-->2.70</th>\n</tr></table><!--dps-->(35.19 damage per second)<!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 90 / 90</td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Chance on hit: <!--useEffect:0:1--><a href=\"/forever/spell=21919/thrash\" class=\"q2\">Grants an extra attack on your next swing.</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneygold\">3</span> <span class=\"moneysilver\">37</span> <span class=\"moneycopper\">14</span></div></td></tr></table>",
+      "lines": [
+        "Thrash Blade",
+        "Item Level 53",
+        "Binds when picked up",
+        "Unique-Equipped",
+        "One-Hand  Sword",
+        "66 - 124 Damage",
+        "Speed 2.70",
+        "(35.19 damage per second)",
+        "Durability 90 / 90",
+        "Chance on hit: Grants an extra attack on your next swing.",
+        "Sell Price: 3 37 14"
+      ],
+      "stats": {
+        "itemLevel": 53,
+        "reqLevel": null,
+        "binding": "Binds when picked up",
+        "uniqueEquipped": true,
+        "slot": "One-Hand",
+        "type": "Sword",
+        "minDamage": 66,
+        "maxDamage": 124,
+        "speed": 2.7,
+        "dps": 35.19,
+        "durability": {
+          "current": 90,
+          "max": 90
+        },
+        "statLines": [],
+        "effectLines": [
+          "Chance on hit: Grants an extra attack on your next swing."
+        ],
+        "classes": null,
+        "sellPrice": {
+          "gold": 3,
+          "silver": 37,
+          "copper": 14
+        },
+        "tooltipDroppedBy": null
+      },
+      "spells": [],
+      "iconWidth": 56,
+      "iconHeight": 56
+    }
+  ]
+}

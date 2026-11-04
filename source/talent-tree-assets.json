@@ -1,0 +1,73 @@
+{
+  "checked": "2026-11-03",
+  "reference": "https://talentsforever.com/rogue",
+  "sourceJs": "https://talentsforever.com/calc.js?v=f55d6e72",
+  "sourceCss": "https://talentsforever.com/site.css?v=65315fc7",
+  "artworkCredit": "Blizzard Entertainment. Source calculator explicitly identifies icons and art as Blizzard artwork. These are the exact Rogue background textures publicly served by the referenced calculator; no Shaman art, reconstruction or generated replacements. CC BY 4.0 attribution applies to the Talents Forever dataset, not ownership of game artwork.",
+  "assets": [
+    {
+      "tree": "assassination",
+      "textureId": 182,
+      "path": "assets/tree-bg-assassination.jpg",
+      "sourceUrl": "https://talentsforever.com/assets/bg/182.jpg",
+      "mime": "image/jpeg",
+      "width": 300,
+      "height": 331,
+      "bytes": 24341,
+      "sha256": "0ba80b71cd5b351143afb419534bcfcf5078891c31b74c8fa379842f05071eaf",
+      "matchesDownloadedBytes": true
+    },
+    {
+      "tree": "combat",
+      "textureId": 181,
+      "path": "assets/tree-bg-combat.jpg",
+      "sourceUrl": "https://talentsforever.com/assets/bg/181.jpg",
+      "mime": "image/jpeg",
+      "width": 300,
+      "height": 331,
+      "bytes": 24281,
+      "sha256": "2ff008c99f3f78807a0cce662aef468029ef5166454c5c064797b2b70dc5bc8d",
+      "matchesDownloadedBytes": true
+    },
+    {
+      "tree": "subtlety",
+      "textureId": 183,
+      "path": "assets/tree-bg-subtlety.jpg",
+      "sourceUrl": "https://talentsforever.com/assets/bg/183.jpg",
+      "mime": "image/jpeg",
+      "width": 300,
+      "height": 331,
+      "bytes": 22410,
+      "sha256": "90c3102312b9fc71308503325e0b49722421611ccbf8a364ca240135cf7af27d",
+      "matchesDownloadedBytes": true
+    }
+  ],
+  "interactionNotes": {
+    "desktop": {
+      "leftClick": "Add one legal point",
+      "rightClick": "Remove one point when dependencies remain legal; context menu suppressed",
+      "shiftClick": "Remove one legal point",
+      "keyboard": "Enter or Space adds; Backspace or Delete removes",
+      "tooltip": "Shown on mouse enter or keyboard focus; hidden on leave or blur, refreshed after rank change"
+    },
+    "touch": {
+      "tap": "Add a legal point",
+      "minusBadge": "Remove a spent point",
+      "holdMilliseconds": 550,
+      "hold": "Read tooltip without spending"
+    },
+    "gates": "Every 5 points in earlier tree rows opens a row; maxed named prerequisite required. Removal is blocked if another spent talent would become illegal.",
+    "arrows": "SVG arrows use actual cell centers and turn gold when the named prerequisite is maxed. The source omits a line that would run through another talent, including the current Precision to Dual Wield Specialization connection; the tooltip and validation still enforce that prerequisite.",
+    "visual": "44x44 icons on 4-column, 7-row grids; lower-right rank overlays; locked grayscale and brightness .55; available and partial green; maxed gold; tree background center/cover with dark vertical gradient."
+  },
+  "verification": {
+    "publicHtmlFetched": true,
+    "publicSourceJsAndCssInspected": true,
+    "allThreeJpegSignaturesAndDimensionsVerified": true,
+    "exactReadbackAndSHA256": true,
+    "localArtworkVisuallyInspected": true,
+    "browserClickDemonstration": false,
+    "browserLimit": "In-app browser was unavailable for this agent at verification time."
+  },
+  "publicationNote": "Public provenance retains source URLs, relative asset paths, dimensions, checksums, credits and descriptive reference behavior. Local computer paths and copied source-code excerpts are omitted."
+}
